@@ -1,0 +1,22 @@
+.page-controller{
+    //background-color: red;
+    display: flex;
+    width: 30rem;
+    font-weight: 700;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem;
+
+
+    & button {
+        border: none;
+        outline: none;
+        border-radius: 1rem;
+        background-color: var(--color-primary);
+        padding: 1rem 3rem;
+
+        &:hover{
+            background-color: var(--color-primary-light);
+        }
+    }
+}

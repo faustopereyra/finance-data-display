@@ -1,0 +1,20 @@
+.data-view{
+    margin: 5rem;
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(50rem, 1fr));
+    
+    
+    &__description{
+        text-align: justify;
+        padding: 0 2rem;
+        //padding-top: 2rem;
+    }
+
+    &__showdown{
+        &--item{
+            padding: 2rem 0;
+            border-bottom: var(--color-grey-dark) solid 1px;
+        }
+    }
+}
