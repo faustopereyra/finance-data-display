@@ -54,7 +54,7 @@ const Table = () => {
                 min="min"
                 max="max"
                 current="current"
-                tendency="tendency"
+                tendency="t"
             />
             {currentData.map((point, i) => (
                 <Row key={i}

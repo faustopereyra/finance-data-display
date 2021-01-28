@@ -18,7 +18,7 @@ const RowDisplay = (props) => {
             <div className="row__item row__item--max">{props.max}</div>
             <div className="row__item row__item--min">{props.min}</div>
             <div className="row__item">{props.url}</div>
-            <div className="row__item">{props.result ? "t" : props.result === null ? "" : "f"}</div>
+            <div className="row__item">{props.result === "result" ? "result" : props.result ? "t" : props.result === null ? "" : "f"}</div>
             <div className="row__item row__item--tendency">{typeof props.tendency == "number" ? props.tendency > 0 ? <span className="arrow-up">&#8593;</span> : <span className="arrow-down">&#8595;</span> : props.tendency}</div>
         </div >
     )
